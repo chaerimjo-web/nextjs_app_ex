@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default async function Read(props) {
   const response = await fetch(`http://localhost:9999/topics/${props.params.id}`); //기다리는 함수
   const topic = await response.json();

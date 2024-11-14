@@ -23,13 +23,13 @@ export default function Update(props) {
   const onSubmit = (e)=>{
     e.preventDefault();
     const options = {
-      method:'POST',
+      method:'PATCH',
       headers:{
         'Content-Type':'application/json'
       },
       body:JSON.stringify({title, body}) //object->json
     }
-    fetch('http://localhost:9999/topics', options)
+    fetch('http://localhost:9999/topics/'+id, options)
       .then(res=>res.json()) //결과를 객체로 변환
       .then(result=>{
         console.log(result);
