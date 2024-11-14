@@ -14,6 +14,16 @@
       "id": 3,
       "title": "javascript",
       "body": "javascript is..."
+    },
+    {
+      "title": "javascript 수정",
+      "body": "javascript is...수정",
+      "id": 4
+    },
+    {
+      "title": "css 수정",
+      "body": "css is... 수정",
+      "id": 5
     }
   ],
   "posts": [
