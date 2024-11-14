@@ -4,20 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 import Image from "next/image";
 import Control from "./read/[id]/Control";
-//import { useEffect,useState } from "react";
 
-/*
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
-*/
 
 export const metadata = {
   title: "Web tutorials",
